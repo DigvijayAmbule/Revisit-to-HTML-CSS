@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+header {
+    background-image: url("./assets/peter-broomfield-m3m-lnR90uM-unsplash\ 1.jpg");
+    background-color: rgba(23, 16, 8, 0.391);
+    /* Tint color */
+    background-blend-mode: multiply;
+
+    background-size: cover;
+    background-position: center center;
+
+    color: white;
+
+    min-height: calc(100vh - 102px);
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 1000px;
+}
+
+.highlite {
+    background-color: #00C2FF;
+}
+
+.selected {
+    font-weight: bold;
+}
+
+.content {
+    margin-top: 15%;
+    font-size: 1.5rem;
+}
+
+.content h1 {
+    color: #00C2FF;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+nav .logo {
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+nav li a {
+    text-decoration: none;
+    padding: 1rem;
+    color: white;
+}
+
+button {
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: white;
+    border: none;
+}
+
+footer {
+    background-color: #000;
+    color: white;
+    padding: 1rem;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer strong {
+    color: #00C2FF;
+}
